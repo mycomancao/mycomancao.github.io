@@ -709,6 +709,20 @@ section,
   z-index: 3;
 }
 
+.certificate-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 100%; /* Ensures all cards have equal height */
+}
+
+.certificate-card img {
+  height: 180px; /* Set a uniform height */
+  object-fit: cover; /* Ensures the image fills the space */
+  width: 100%; /* Keeps images responsive */
+}
+
 .hero h2 {
   margin: 0;
   font-size: 64px;
